@@ -14,9 +14,30 @@
     <version>3.1.0</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
+
   <scm>
-    <url>https://github.com/my-humworks/humworks-starter-parent</url>
+    <connection>scm:git:git://github.com/humworks-projects/humworks-starter-parent.git</connection>
+    <developerConnection>scm:git:ssh://github.com/humworks-projects/humworks-starter-parent.git</developerConnection>
+    <url>https://github.com/humworks-projects/humworks-starter-parent/tree/master</url>
   </scm>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/humworks-projects/humworks-starter-parent/blob/master/LICENSE</url>
+      <distribution>May be downloaded from the Maven repository</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Sebin Thomas</name>
+      <email>sebin@hummingsoft.com.my</email>
+      <organization>Hummingsoft</organization>
+      <organizationUrl>https://hummingsoft.com.my</organizationUrl>
+    </developer>
+  </developers>
+
   <properties>
     <humworks.version>${project.version}</humworks.version>
     <java.version>17</java.version>
