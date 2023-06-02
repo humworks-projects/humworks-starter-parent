@@ -125,6 +125,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Humworks Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/my-humworks/humworks-starter-parent</url>
+    </repository>
+  </distributionManagement>
   <organization>
     <name>Hummingsoft Sdn. Bhd.</name>
     <url>https://hummingsoft.com.my</url>
