@@ -7,14 +7,16 @@
   <packaging>pom</packaging>
   <name>humworks-starter-parent</name>
   <description>Parent pom providing dependency and plugin management for humworks applications built with Maven</description>
-
+  <url>https://humworks.com.my</url>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.1.0</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-
+  <scm>
+    <url>https://github.com/my-humworks/humworks-starter-parent</url>
+  </scm>
   <properties>
     <humworks.version>${project.version}</humworks.version>
     <java.version>17</java.version>
@@ -54,7 +56,6 @@
     <problem-spring-web.version>0.27.0</problem-spring-web.version>
     <snakeyaml.version>2.0</snakeyaml.version>
   </properties>
-  <url>https://humworks.com.my</url>
   <dependencyManagement>
     <dependencies>
       <dependency>
